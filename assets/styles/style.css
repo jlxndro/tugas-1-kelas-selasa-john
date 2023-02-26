@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.container__header__name {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.header__name {
+    color: #272042;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    color: #8b8ba5;
+    margin-left: 15px;
+}
+
+.home {
+    color: #272042;
+}
+
+.button__kitchen {
+    background-color: #fbe0dc;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #272042;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container__one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eat {
+    font-size: 46px;
+    color: #272042;
+}
+
+.container__one {
+    color: #8b8ba5;
+    font-size: 20px;
+}
+
+.button__decide {
+    background-color: #f7c531;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #272042;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    margin-top: 30px;
+}
+
+.center__part {
+    margin-top: 50px;
+    text-align: center;
+    text-indent: 40px;
+    line-height: 2;
+}
+
+ul.cent {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.wn {
+    color: #8b8ba5;
+    font-weight: lighter;
+}
+
+.hf__color {
+    color: #f7c531;
+    font-weight: 500;
+}
+
+.li__color {
+    color: rgb(45, 45, 45);
+    font-weight: lighter;
+}
+
+.row {
+    display: flex;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.column {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.font__h3 {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.font__p {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(154, 154, 154);
+}
+
+.container__cent {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 1250px;
+    height: 500px;
+}
+
+.container__midcent {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.quote {
+    position: relative;
+    margin-right: 500px;
+}
+
+.cent__text {
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    width: max-content;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 50;
+    line-height: 2;
+}
+
+.profile {
+    display: flex;
+    margin-left: 500px;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 200px;
+}
+
+.profile__name {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.name {
+    font-weight: 200;
+}
+
+.vege__master {
+    font-weight: 50;
+}
+
+.numbers {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.numbers2 {
+    margin-left: 50px;
+    margin-right: 75px;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.num {
+    font-weight: 200;
+    font-size: 12px;
+    color: #8b8ba5;
+}
+
+.container__two {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.container__three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download {
+    margin-left: 100px;
+}
+
+.download__text {
+    font-size: 30px;
+    color: #272042;
+    line-height: 1.5;
+}
+
+.download__p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #8b8ba5;
+    line-height: 1.5;
+}
+
+.app__img {
+    margin-top: 50px;
+    height: 35px;
+    width: 120px;
+}
+
+.container__footer {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+}
+
+.foot {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.foot__text {
+    margin-left: 50px;
+    margin-right: 75px;
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.rights {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-indent: 40px;
+    line-height: 2;
+    font-weight: 100;
+    color: #8b8ba5;
+}
